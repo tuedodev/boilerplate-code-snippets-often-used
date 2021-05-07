@@ -1,3 +1,5 @@
+// A vanilla JS alternative to jquery´s $(document).ready() function
+
 function ready(fun) {
 	if (document.readyState != `loading`) {
 		fun();
